@@ -1,0 +1,12 @@
+{
+  "name": "idol-sim",
+  "version": "0.1.0",
+  "description": "Mô phỏng cộng đồng mạng phản ứng với bài đăng của một idol hư cấu (Facebook giả lập).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/engine.test.mjs test/views.test.mjs test/world.test.mjs",
+    "serve": "python3 -m http.server 8000"
+  },
+  "license": "MIT"
+}

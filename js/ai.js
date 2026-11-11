@@ -50,4 +50,4 @@ Nếu bạn CHẮC CHẮN đó là câu hát của một bài cụ thể, trả 
   const raw = data.content?.map((b) => b.text || '').join('') || '';
   const obj = JSON.parse(raw.slice(raw.indexOf('{'), raw.lastIndexOf('}') + 1));
   return obj.title && obj.artist ? { title: String(obj.title).slice(0, 80), artist: String(obj.artist).slice(0, 60) } : null;
-    }
+}
